@@ -21,7 +21,7 @@ public class RestTemplateExampleApplicationTests {
     private static final String ROOT_URL = "http://localhost:8080";
 
     @Test
-    public void getUsersService() throws URISyntaxException {
+    public void getUsersTest() throws URISyntaxException {
         RestTemplate restTemplate = new RestTemplate();
         URI uri = new URI(ROOT_URL + "/users");
 
@@ -32,7 +32,7 @@ public class RestTemplateExampleApplicationTests {
     }
 
     @Test
-    public void getSingleUserService() throws URISyntaxException {
+    public void getUserTest() throws URISyntaxException {
         RestTemplate restTemplate = new RestTemplate();
         URI uri = new URI(ROOT_URL + "/users/" + 1);
 
