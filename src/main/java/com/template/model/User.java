@@ -3,7 +3,6 @@ package com.template.model;
 import lombok.*;
 
 @Data
-@Builder
 public class User {
 
     private final int id;
